@@ -22,10 +22,10 @@ if(playGame){
 }
 function validateGuess(guess){
     if(isNaN(guess)){
-        alert('Plese Enter Valid Number');
+        displayMsg('Plese Enter Valid Number');
     }
     else if(guess < 1 || guess > 100){
-        alert('Plese Enter Number Between 1 to 100');
+        displayMsg('Plese Enter Number Between 1 to 100');
     }
     else{
         //  prevGuess.push(guess);
